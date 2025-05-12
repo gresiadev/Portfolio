@@ -1,0 +1,1506 @@
+[
+   {
+      "id": 1,
+      "name": "Ahri",
+      "type": "Mage",
+      "attackPower": 50,
+      "magicPower": 90,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Ahri Mid tiene una tasa de ganancia del 50,1% con una tasa de picks del 11,8% en Esmeralda y actualmente ocupa el primer nivel",
+         "paragraph2": " Basado en nuestro análisis de 74 303 partidos en parche 15.8 la mejor construcción para Ahri es Rod of Ages, Sorcerer's Shoes, Liandry's Torment, Riftmaker, y Zhonya's Hourglass."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8112.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8139.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8140.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8106.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8226.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8210.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6657.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6653.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4633.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 2,
+      "name": "Garen",
+      "type": "Fighter",
+      "attackPower": 80,
+      "magicPower": 30,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Garen Top tiene una tasa de victorias del 49,4% con una tasa de pick en Esmeralda y actualmente ocupa un rango A.",
+         "paragraph2": "Basado en nuestro análisis de 34 176 partidos en parche 15.8 la mejor construcción para Garen es Stridebreaker, Berserker's Greaves, Phantom Dancer, Mortal Reminder y Dead Man's Plate."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8230.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8224.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8234.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8236.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8444.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8451.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6631.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3033.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3742.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4401.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3053.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 3,
+      "name": "Lux",
+      "type": "Mage",
+      "attackPower": 40,
+      "magicPower": 95,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Lux Support tiene una tasa de ganancia del 48,1% con una tasa de picks del 5,0% en Esmeralda y actualmente se sitúa en el nivel B.",
+         "paragraph2": "Basado en nuestro análisis de 31 246 partidos en parche 15.8 la mejor construcción para Lux es el Realmspike de Zaz'Zak, Zapatos de Corscerer, Luden's Companion, Stormsurge y Shadowflame."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8229.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8226.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8210.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8237.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8126.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8106.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6655.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4628.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 4,
+      "name": "Darius",
+      "type": "Fighter",
+      "attackPower": 90,
+      "magicPower": 20,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Darius Top tiene una tasa de victorias del 49,4% con una tasa de selección del 7,1% en Esmeralda y actualmente está clasificado como S tier.",
+         "paragraph2": "Basado en nuestro análisis de 44 826 partidos en parche 15.8 la mejor construcción para Darius es Stridebreaker, Plated Steelcaps, Sterak's Gage, Dead Man's Plate y Force of Nature"
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8224.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8234.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6631.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3053.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3742.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4401.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6665.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 5,
+      "name": "Jinx",
+      "type": "Marksman",
+      "attackPower": 85,
+      "magicPower": 10,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Jinx Bot tiene una tasa de victorias del 51,6% con una tasa de pick en Esmeralda y actualmente está clasificado como S.",
+         "paragraph2": "Basado en nuestro análisis de 97 896 coincidencias en parche 15.8 la mejor construcción para Jinx es Yun Tal Wildarrows, Berserker's Greaves, Infinity Edge, Runaan's Hurricane, y Lord Dominik's Regards. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8008.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9103.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8233.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8236.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3032.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3033.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 6,
+      "name": "Thresh",
+      "type": "Support",
+      "attackPower": 45,
+      "magicPower": 75,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+      "rol": "Support",
+      "description": {
+         "paragraph1": "Thresh Support tiene una tasa de victoria del 51,4% con una tasa de pick del 12,5% en Esmeralda y actualmente está clasificado como S tier. ",
+         "paragraph2": " Basado en nuestro análisis de 79 153 partidos en parche 15.8 la mejor construcción para Thresh es Solstice Sleigh, Boots of Swiftness, Locket of the Iron Solari, Knight's Vow, y Zeke's Convergence."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8439.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8463.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8473.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8242.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8347.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3190.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3109.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3050.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3075.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3110.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6665.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3107.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 7,
+      "name": "Yasuo",
+      "type": "Assassin",
+      "attackPower": 95,
+      "magicPower": 15,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Yasuo Mid tiene una tasa de victoria del 50,1% con una tasa de picks de 8,3% en Esmeralda y actualmente está clasificado S tier.",
+         "paragraph2": "Basado en nuestro análisis de 53 450 partidos en parche 15.8 la mejor construcción para Yasuo es Blade de El rey derruinado, Greaves de Berserker, Inmortal Shieldbow, Infinity Edge y Death's Dance. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8008.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9101.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8444.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8451.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6673.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3091.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 8,
+      "name": "Jhin",
+      "type": "Marksman",
+      "attackPower": 90,
+      "magicPower": 25,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Jhin Bot tiene una 50,4% tasa de victoria con 18,4% Tasa de selección en Esmeralda. y actualmente clasificado S tier.",
+         "paragraph2": "Basado en nuestro análisis de 110 204 partidos en parche 15.8 la mejor construcción para Jhin es El coleccionista, Botas de Swiftness, Edge Infinito, Rápido de bomberos, y Los respetos de Lord Dominik."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8021.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9103.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8234.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8236.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3094.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3139.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 9,
+      "name": "Morgana",
+      "type": "Mage",
+      "attackPower": 35,
+      "magicPower": 85,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_0.jpg",
+      "rol": "Support",
+      "description": {
+         "paragraph1": "Morgana Support tiene una tasa de victorias del 49,9% con una tasa de pick 2,9% en Esmeralda y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 18 562 partidos en parche 15.8 la mejor construcción para Morgana es el Realmspike de Zaz'Zak, Botas Jónicas de Lucidity, Liandry's Torment, Zhonya's Hourglass, y Crystal Scepter de Rylai."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8229.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8226.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8210.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8237.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8126.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8106.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6653.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3158.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3116.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4628.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3165.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 10,
+      "name": "Zed",
+      "type": "Assassin",
+      "attackPower": 95,
+      "magicPower": 10,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Zed Mid tiene una tasa de ganancia del 49,7% con una tasa de picks del 7,2% en Esmeralda y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 46 475 partidos en parche 15.8 la mejor construcción para Zed es Eclipse, Ionian Botas de Lucidity, Black Cleaver, Spear of Shojin, y Edge of Night. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9105.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8275.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8210.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5011.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6692.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3158.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3071.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3161.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6694.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3814.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6695.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 11,
+      "name": "Ashe",
+      "type": "Marksman",
+      "attackPower": 75,
+      "magicPower": 20,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Ashe Bot tiene una tasa de ganancia del 49,7% con una tasa de picks del 7,3% en Esmeralda y actualmente ocupa el primer nivel. ",
+         "paragraph2": "Basado en nuestro análisis de 47 516 partidos en parche 15.8 la mejor construcción para Ashe es Yun Tal Wildarrows, Berserker's Greaves, Phantom Dancer, Infinity Edge y Bloodthirster. "
+      },
+      "lines": {
+         "primary": " https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8008.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8017.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8410.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5011.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3032.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 12,
+      "name": "Teemo",
+      "type": "Mage",
+      "attackPower": 55,
+      "magicPower": 65,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Teemo Top tiene una tasa de victorias del 51,6% con una tasa de pick 2,8% en Emerald y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 182 partidos en parche 15.8 la mejor construcción para Teemo es Nashor's Tooth, Sorcerer's Shoes, Liandry's Torment, Malignance y Shadowflame."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8005.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8473.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8451.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3115.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6653.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3118.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3165.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 13,
+      "name": "Evelynn",
+      "type": "Assassin",
+      "attackPower": 70,
+      "magicPower": 80,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+      "rol": "Jungle",
+      "description": {
+         "paragraph1": "Evelynn Jungle tiene una tasa de victoria del 50,3% con una tasa de picks de 2,3% en Esmeralda y actualmente se sitúa en el nivel A",
+         "paragraph2": "Basado en nuestro análisis de 14 578 partidos en parche 15.8 la mejor construcción para Evelynn es Lich Bane, Sorcerer's Shoes, Rabadon's Deathcap, Vacío Staff y Banshee's Veil. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8112.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8143.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8140.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8105.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8233.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8236.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3100.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3102.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 14,
+      "name": "Irelia",
+      "type": "Fighter",
+      "attackPower": 85,
+      "magicPower": 35,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Irelia Top tiene una tasa de ganancia del 50,5% con una tasa de picks del 4,2% en Esmeralda y actualmente está clasificado como nivel S. ",
+         "paragraph2": "Basado en nuestro análisis de 26 834 partidos en parche 15.8 la mejor construcción para Irelia es Blade of The Ruined King, Plated Steelcaps, Hullbreaker, Wit's End y Death's Dance. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8316.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3181.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3091.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3053.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3110.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 15,
+      "name": "Draven",
+      "type": "Marksman",
+      "attackPower": 95,
+      "magicPower": 10,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Draven Bot tiene una tasa de victoria del 49,7% con una tasa de pick 4,8% en Esmeralda y actualmente se sitúa en el nivel A. ",
+         "paragraph2": "Basado en nuestro análisis de 31 174 partidos en parche 15.8 la mejor construcción para Draven is Bloodthirster, Berserker's Greaves, The Collector, Infinity Edge y Lord Dominik's Regards."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8008.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8233.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8236.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5011.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3094.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3033.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 16,
+      "name": "Riven",
+      "type": "Fighter",
+      "attackPower": 85,
+      "magicPower": 25,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Riven Top tiene una tasa de victorias del 51,6% con una tasa de picks del 5,2% en Esmeralda y actualmente se clasifica en el escalón S.",
+         "paragraph2": " Basado en nuestro análisis de 30 800 partidos en parche 15.8 la mejor construcción para Riven es Eclipse, Ionian Boots of Lucidity, Sundered Sky, Death's Dance y Maw of Malmortius. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9105.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8316.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5007.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6692.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3158.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6610.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3071.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3156.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6694.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 17,
+      "name": "Leona",
+      "type": "Tank",
+      "attackPower": 50,
+      "magicPower": 50,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
+      "rol": "Support",
+      "description": {
+         "paragraph1": "Leona Support tiene una tasa de victorias del 50,1% con una tasa de selección del 5,1% en Esmeralda y actualmente ocupa el primer nivel. ",
+         "paragraph2": "Basado en nuestro análisis de 32 062 partidos en parche 15.8 la mejor construcción para Leona es Celestial Opposition, Plated Steelcaps, Locket of the Iron Solari, Knight's Vow, y Thornmail. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8439.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8463.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8473.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8242.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8347.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5007.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3190.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3109.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3075.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/2504.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3110.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3068.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3222.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 18,
+      "name": "Katarina",
+      "type": "Assassin",
+      "attackPower": 80,
+      "magicPower": 70,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Katarina Mid tiene una tasa de victorias del 49,6% con una tasa de pick del 5,3% en Esmeralda y actualmente se sitúa en el nivel B.",
+         "paragraph2": "Basado en nuestro análisis de 33 982 partidos en parche 15.8 la mejor construcción para Katarina es Lich Bane, Sorcerer's Shoes, Shadowflame, Zhonya's Hourglass, y Rabadon's Deathcap. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8112.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8143.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8140.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8105.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3100.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3102.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 19,
+      "name": "Veigar",
+      "type": "Mage",
+      "attackPower": 30,
+      "magicPower": 95,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Veigar Mid tiene una tasa de victoria del 50,8% con una tasa de picks de 2,8% en Emerald y actualmente se encuentra clasificado B de nivel. ",
+         "paragraph2": "Basado en nuestro análisis de 17 818 partidos en parche 15.8 la mejor construcción para Veigar es Rod of Ages, Sorcerer's Shoes, Archangel's Staff, Rabadon's Deathcap, y Zhonya's Hourglass. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8369.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8347.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8226.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8210.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5007.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6657.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3040.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 20,
+      "name": "Akali",
+      "type": "Assassin",
+      "attackPower": 75,
+      "magicPower": 75,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Akali Mid tiene una tasa de victorias del 49,6% con una tasa de pick en Esmeralda y actualmente se sitúa en el nivel B. ",
+         "paragraph2": "Basado en nuestro análisis de 36 987 partidos en parche 15.8 la mejor construcción para Akali es Stormsurge, Sorcerer's Shoes, Shadowflame, Zhonya's Hourglass, y Rabadon's Deathcap."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8112.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8143.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8140.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8106.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8444.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8451.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3102.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3041.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 21,
+      "name": "Shen",
+      "type": "Tank",
+      "attackPower": 65,
+      "magicPower": 40,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Shen Top tiene una tasa de victorias del 50,6% con una tasa de picks de 3,8% en Emerald y actualmente está clasificado como A tierno. ",
+         "paragraph2": "Basado en nuestro análisis de 24 608 partidos en parche 15.8 la mejor construcción para Shen es Heartsteel, Plated Steelcaps, Titanic Hydra, Thornmail y Desesperación Interminable. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8437.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8401.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8444.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8453.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8126.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8106.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3084.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3068.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3075.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6664.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6665.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/2502.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/2504.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 22,
+      "name": "Fiora",
+      "type": "Fighter",
+      "attackPower": 90,
+      "magicPower": 20,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Fiora Top tiene una tasa de victorias del 51,6% con una tasa de pick en Emerald y actualmente ocupa el escamo S. ",
+         "paragraph2": "Basado en nuestro análisis de 30 976 partidos en parche 15.8 la mejor construcción para Fiora es Ravenous Hydra, Plated Steelcaps, Trinity Force, Hullbreaker, y Death's Dance. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8437.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8446.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8444.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8242.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3074.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3078.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3181.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3156.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3065.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3053.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 23,
+      "name": "Graves",
+      "type": "Marksman",
+      "attackPower": 85,
+      "magicPower": 15,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Graves Jungle tiene una tasa de ganancia del 50,0% con una tasa de pick de 6,5% en Esmeralda y actualmente ocupa el primer nivel. ",
+         "paragraph2": "Basado en nuestro análisis de 41 857 coincidencias en parche 15.8 la mejor construcción para Graves es Youmuu's Ghostblade, Plated Steelcaps, The Collector, Lord Dominik's Regards, y Immortal Shieldbow."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8128.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8143.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8140.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8135.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3142.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3033.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 24,
+      "name": "Annie",
+      "type": "Mage",
+      "attackPower": 40,
+      "magicPower": 90,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Annie Mid tiene una tasa de victoria del 47,5% con una tasa de pick, del 2,1% en Emerald y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 13 360 partidos en parche 15.8 la mejor construcción para Annie es Malignance, Sorcerer's Shoes, Stormsurge, Shadowflame y Rabadon's Deathcap."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8112.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8126.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8140.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8105.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8200.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8224.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8233.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3118.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4645.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3116.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 25,
+      "name": "Ezreal",
+      "type": "Marksman",
+      "attackPower": 80,
+      "magicPower": 50,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Ezreal Bot tiene una tasa de victoria del 47,5% con una tasa de picks del 18,2% en Esmeralda y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 118 335 partidos en parche 15.8 la mejor construcción para Ezreal es Trinity Force, Ionian Boots of Lucidity, Manamune, Spear of Shojin, y Serylda's Grudge"
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8005.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9103.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3078.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3158.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3042.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3161.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6694.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3156.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 26,
+      "name": "Camille",
+      "type": "Fighter",
+      "attackPower": 85,
+      "magicPower": 25,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+      "rol": "Top",
+      "description": {
+         "paragraph1": "Camille Top tiene una tasa de ganancia del 50,5% con una tasa de picks del 3,9% en Esmeralda y actualmente se sitúa en el nivel S.",
+         "paragraph2": "Basado en nuestro análisis de 25 partidos 012 en parche 15.8 la mejor construcción para Camille es Trinity Force, Plated Steelcaps, Ravenous Hydra, Sterak's Gage y Death's Dance."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8437.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8401.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8473.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8242.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3078.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3074.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3053.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3161.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3156.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 27,
+      "name": "Kai'Sa",
+      "type": "Marksman",
+      "attackPower": 80,
+      "magicPower": 60,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Kai'Sa Bot tiene una tasa de victorias del 49,1% con una tasa de picks del 21,1% en Emerald y actualmente se sitúa en el nivel A. ",
+         "paragraph2": "Basado en nuestro análisis de 137 684 partidos en parche 15.8 la mejor construcción para Kai'Sa es Kraken Slayer, Berserker's Greaves, Guinsoo's Rageblade, Nashor's Tooth, y Zhonya's Hourglas."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8008.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9103.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6672.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3006.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3124.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3115.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6675.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3085.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 28,
+      "name": "Rengar",
+      "type": "Assassin",
+      "attackPower": 85,
+      "magicPower": 25,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rengar_0.jpg",
+      "rol": "Jungle",
+      "description": {
+         "paragraph1": "Rengar Jungle tiene una tasa de ganancia del 48,7% con una tasa de picks de 2,8% en Esmeralda y actualmente se sitúa en B tier. ",
+         "paragraph2": "Basado en nuestro análisis de 17 713 coincidencias en parche 15.8 la mejor construcción para Rengar es Youmuu's Ghostblade, Ionian Boots of Lucidity, Profane Hydra, Lord Dominik's Regards y Edge of Night. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8100.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8143.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8106.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3142.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3158.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6698.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3036.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3814.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6676.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6695.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 29,
+      "name": "Vayne",
+      "type": "Marksman",
+      "attackPower": 95,
+      "magicPower": 10,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Vayne Bot tiene una tasa de victorias del 51,8% con una tasa de pick de 5,5% en Esmeralda y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 35 695 partidos en parche 15.8 la mejor construcción para Vayne es Blade de The Ruined King, Berserker's Greaves, Guinsoo's Rageblade, Terminus, y Jak'Sho, The Protean. "
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8008.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8429.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8451.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3124.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3302.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3091.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6665.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3046.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 30,
+      "name": "Lee Sin",
+      "type": "Fighter",
+      "attackPower": 80,
+      "magicPower": 25,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
+      "rol": "Jungle",
+      "description": {
+         "paragraph1": "Lee Sin Jungle tiene una tasa de victoria del 48,8% con una tasa de picks del 12,2% en Esmeralda y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 78 mil 738 partidos en parche 15.8 la mejor construcción para Lee Sin es Eclipse, Plated Steelcaps, Sundered Sky, Black Cleaver y Death's Dance"
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-top-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9111.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9104.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8347.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6692.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3047.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6610.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3071.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3053.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3156.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 31,
+      "name": "Sylas",
+      "type": "Mage",
+      "attackPower": 65,
+      "magicPower": 85,
+      "gender": "Male",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sylas_0.jpg",
+      "rol": "Mid",
+      "description": {
+         "paragraph1": "Sylas Mid tiene una tasa de victorias del 49,8% con una tasa de pick en Esmeralda y actualmente ocupa el primer nivel.",
+         "paragraph2": "Basado en nuestro análisis de 63 440 partidos en parche 15.8 la mejor construcción para Sylas es Rod of Ages, Botas Jónicas de Lucidity, Riftmaker, Zhonya's Hourglass, y Rabadon's Deathcap."
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-mid-bright.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-jg-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8010.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9105.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8299.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8400.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8444.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8242.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6657.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3020.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4633.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3157.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4629.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3089.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3135.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/4646.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   },
+   {
+      "id": 32,
+      "name": "Miss Fortune",
+      "type": "Marksman",
+      "attackPower": 90,
+      "magicPower": 30,
+      "gender": "Female",
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MissFortune_0.jpg",
+      "rol": "Adc",
+      "description": {
+         "paragraph1": "Miss Fortune Bot tiene una tasa de victoria del 51,1% con una tasa de picks del 10,4% en Esmeralda y actualmente ocupa el primer lugar. ",
+         "paragraph2": " Basado en nuestro análisis de 68 136 partidos en parche 15.8 la mejor construcción para Miss Fortune es Bloodthirster, Boots of Swiftness, Essence Reaver, Infinity Edge y Lord Dominik's Regards"
+      },
+      "lines": {
+         "primary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-bot-faded.svg",
+         "secondary": "https://cdn.mobalytics.gg/assets/common/icons/lol-roles/16-sup-faded.svg"
+      },
+      "runes": {
+         "primary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8000.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8005.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8009.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/9103.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8014.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "secondary": {
+            "type": "https://cdn.mobalytics.gg/assets/lol/images/perks/8300.svg?v03",
+            "rune1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8304.png?image=q_auto:good,f_webp,w_56,h_56&v=1508",
+            "rune2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/perk/8345.png?image=q_auto:good,f_webp,w_56,h_56&v=1508"
+         },
+         "fragments": {
+            "fragment1": "https://cdn.mobalytics.gg/assets/lol/images/perks/5005.svg?v03",
+            "fragment2": "https://cdn.mobalytics.gg/assets/lol/images/perks/5008.svg?v03",
+            "fragment3": "https://cdn.mobalytics.gg/assets/lol/images/perks/5001.svg?v03"
+         }
+      },
+      "objects": {
+         "object1": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3072.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object2": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3009.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object3": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3508.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object4": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3031.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object5": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/6694.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object6": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3094.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object7": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3814.png?image=q_auto:good,f_webp,w_64,h_64&v=1508",
+         "object8": "https://opgg-static.akamaized.net/meta/images/lol/15.8.1/item/3026.png?image=q_auto:good,f_webp,w_64,h_64&v=1508"
+      }
+   }
+]

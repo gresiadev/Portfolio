@@ -1,0 +1,57 @@
+/* import fonts portfolio  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* import fonts userManager  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* import fonts leagueTeambuilder  */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+   /*======  PORTFOLIO PAGE VARS  ====== */
+   /* FONTS  */
+   --portfolio-Ff-Opensans: "Open Sans", sans-serif;
+   --portfolio-Ff-Montserrat: "Montserrat", sans-serif;
+
+   /* COLORS  */
+   --portfolio-C-primary: #FF6F00;
+   --portfolio-C-secondary: #FF8C00;
+   --portfolio-C-text1: #E0E0E0;
+   --portfolio-C-text2: #B0B0B0;
+   --portfolio-C-background: #000000;
+   --portfolio-C-background2: #333333;
+
+   /*======  USER MANAGER PAGE VARS  ====== */
+   /* FONTS  */
+   --userManager-Ff-Merri: "Merriweather", serif;
+   --userManager-FF-Inter: "Inter", sans-serif;
+
+   /* COLORS */
+   --userManager-C-primary: #2c7be5;
+   --userManager-C-secondary: #e9ecef;
+   --userManager-C-text: #212529;
+   --userManager-C-closeBtn: rgb(252, 34, 34);
+   --userManager-C-closeBtn-ligth: rgba(252, 34, 34, 0.753);
+   --userManager-C-background: #f8f9fa;
+   --userManager-C-background-Modals: #2c7ce5ad;
+
+
+   /*====== LEAGUE TEAM BUILDER PAGE VARS ======*/
+   /* FONTS  */
+   --leagueTeam-Ff-inter: "Inter", sans-serif;
+   --leagueTeam-Ff-exo2: "Exo 2", sans-serif;
+
+   /* COLORS  */
+   --leagueTeam-C-primary: #3b82f6;
+   --leagueTeam-C-secondary: #14b8a6;
+   --leagueTeam-C-text1: #e2e8f0;
+   --leagueTeam-C-text2: #94a3b8;
+   --leagueTeam-C-acents1: #facc15;
+   --leagueTeam-C-acents2: #94a3b8;
+   --leagueTeam-C-acents3: #22fae1;
+   --leagueTeam-C-ap: #646cff;
+   --leagueTeam-C-ad: orange;
+   --leagueTeam-C-background: #0f0f0f;
+   --leagueTeam-C-background-ligth: #1e1e2f;
+}

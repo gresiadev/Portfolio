@@ -39,7 +39,7 @@ function Projects() {
                         Ver proyecto
                      </NavLink>
                      <a
-                        href=""
+                        href="https://github.com/gresiadev/userManager"
                         className="portfolio__project-btn"
                      >Ver código</a>
                   </div>
@@ -75,7 +75,7 @@ function Projects() {
                      >
                         Ver proyecto
                      </NavLink>
-                     <a href=""
+                     <a href="https://github.com/gresiadev/LeagueTeamBuilder"
                         className="portfolio__project-btn"
                      >Ver código</a>
                   </div>

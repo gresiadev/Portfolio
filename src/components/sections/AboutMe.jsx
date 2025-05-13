@@ -19,7 +19,7 @@ function AboutMe() {
             <div className="portfolio__aboutme-btn-container">
                <a
                   className="portfolio__aboutme-btn"
-                  href="public/assets/lucasgresia.pdf"
+                  href="public/assets/CV_Gresia_Lucas.pdf"
                   download={"Cv_Lucas_Gresia.pdf"}
                > Descargar Cv!</a>
             </div>

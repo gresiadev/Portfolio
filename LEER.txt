@@ -1,0 +1,16 @@
+Empezamos modificando usersManager
+- Generar carpeta App ✅
+- Implementar store ✅
+    |- users  |- usersUI |- token
+
+- Ver contextos 
+    |- token            => token 
+    |- useFormValidity  => usersUI
+    |- userForm         => users
+
+- Mover contextos a redux [seguir acá ...]
+    |- token    
+    |- useFormValidity    
+    |- userForm 
+
+- Borrar contextos

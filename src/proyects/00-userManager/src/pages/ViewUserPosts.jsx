@@ -1,10 +1,8 @@
 // Hooks 
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import useErrors from "../hooks/useErrors"
 
 // Components 
-import Toast from "../components/layout/Toast"
 import ListOfPosts from "../components/users/UserPosts"
 
 // Services 
@@ -12,7 +10,6 @@ import { searchPosts } from "../services/pagesServices"
 
 function ViewUserPosts() {
    const { userID } = useParams()
-   const { errorMsg, handleErrorMsg } = useErrors()
    const [posts, setPosts] = useState(null)
 
    const getPosts = async (userID) => {
@@ -21,7 +18,7 @@ function ViewUserPosts() {
          setPosts(posts)
 
       } catch (error) {
-         handleErrorMsg(error.message)
+         console.log(error.message)
       }
    }
 
@@ -33,10 +30,6 @@ function ViewUserPosts() {
       <section className="userManager__posts-container">
          <h1 className="userManager__posts-h1">Lista de posts</h1>
          <ListOfPosts posts={posts} />
-         {
-            errorMsg &&
-            < Toast />
-         }
       </section>
    </>)
 }

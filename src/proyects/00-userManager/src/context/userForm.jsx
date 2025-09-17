@@ -1,6 +1,5 @@
 // Hooks 
 import { useState, createContext } from "react";
-import useErrors from "../hooks/useErrors"
 
 // Services 
 import { putFunction, postFunction, deleteFunction } from "../services/userServices";
@@ -17,9 +16,6 @@ function UserFormProvider({ children }) {
    const [showForm, setShowForm] = useState(false)
    const [confirmDelete, setConfirmDelete] = useState(false)
    const [completDelete, setCompleteDelete] = useState(false)
-
-   const { handleErrorMsg } = useErrors()
-
 
    // FUNCTION MODALS 
 
@@ -63,7 +59,7 @@ function UserFormProvider({ children }) {
          handleShowForm()
          handleEditUser()
       } catch (error) {
-         handleErrorMsg(error.message)
+         console.log(error.message)
       }
    }
 
@@ -76,7 +72,7 @@ function UserFormProvider({ children }) {
          handleShowForm()
          handleCreatedUser()
       } catch (error) {
-         handleErrorMsg(error.message)
+         console.log(error.message)
       }
    }
 
@@ -92,7 +88,7 @@ function UserFormProvider({ children }) {
          handleConfirmUser()
          handleCompletUser()
       } catch (error) {
-         handleErrorMsg(error.message)
+         console.log(error.message)
       }
    }
 

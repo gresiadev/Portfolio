@@ -1,6 +1,8 @@
 // HOOKS 
 import { useEffect } from "react";
-import AppHookContainer from "../proyects/00-userManager/src/AppHookContainer";
+
+// Components
+import AppHookContainer from "../proyects/00-userManager/src/app/AppHookContainer";
 
 // CSS 
 import "../proyects/00-userManager/src/userManager.css"

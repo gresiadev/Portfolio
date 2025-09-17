@@ -3,13 +3,16 @@ import App from "./App";
 import UserManagerRouter from "./UserManagerRouter";
 
 // Contexts 
-import { TokenProvider } from "./context/token";
-import { UserFormProvider } from "./context/userForm";
-import { ErrorProvider } from "./context/errors"
+import { TokenProvider } from "../context/token";
+import { UserFormProvider } from "../context/userForm";
+
+// Store 
+import store from "../store/store";
+import { Provider } from "react-redux";
 
 function AppHookContainer() {
    return (
-         <ErrorProvider>
+      <Provider store={store}>
             <TokenProvider>
                <UserFormProvider>
                   <App>
@@ -17,7 +20,7 @@ function AppHookContainer() {
                   </App>
                </UserFormProvider>
             </TokenProvider>
-         </ErrorProvider>
+      </Provider>
    )
 }
 

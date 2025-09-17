@@ -1,16 +1,16 @@
 import { Route, Navigate } from "react-router-dom"
 
 // Private Guard 
-import PrivateGuard from "./components/router/PrivateGuard"
+import PrivateGuard from "../components/router/PrivateGuard"
 
 // Public Routes
-import PublicRoutes from "./components/router/PublicRoutes"
+import PublicRoutes from "../components/router/PublicRoutes"
+import RoutesWhitNotFound from "../../../../app/RoutesWhitNotFound"
 
-import RoutesWhitNotFound from "../../../app/RoutesWhitNotFound"
-
-import ViewUsersAll from "./pages/ViewUsersAll"
-import ViewUser from "./pages/ViewUser"
-import ViewUserPosts from "./pages/ViewUserPosts"
+// Pages 
+import ViewUsersAll from "../pages/ViewUsersAll"
+import ViewUser from "../pages/ViewUser"
+import ViewUserPosts from "../pages/ViewUserPosts"
 
 function UserManagerRouter() {
    return (

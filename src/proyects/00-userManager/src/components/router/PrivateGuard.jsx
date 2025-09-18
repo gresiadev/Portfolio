@@ -1,10 +1,13 @@
+// Components 
 import { Outlet, Navigate } from "react-router-dom"
-import useToken from "../../hooks/useToken"
+
+// Hooks 
+import { useAppSelector } from "../../hooks/useStore"
 
 function PrivateGuard() {
-   const { token } = useToken()
+   const { token } = useAppSelector(store => store.token)
 
-   return token ? <Outlet /> : <Navigate to={"/gresia-dev/projects/UserManager/login"}/>
+   return token ? <Outlet /> : <Navigate to={"/gresia-dev/projects/UserManager/login"} />
 }
 
 export default PrivateGuard

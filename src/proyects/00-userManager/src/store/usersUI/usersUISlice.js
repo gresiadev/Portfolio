@@ -1,22 +1,35 @@
 import { createSlice } from "@reduxjs/toolkit";
+import useFormUser from "../../hooks/useFormUser";
+
+// const { currentUSer } = useFormUser()
 
 const usersUISlice = createSlice({
     name: "usersUI",
     initialState: {
-        errorMsg: null
+        showForm: false,
+        editUser: false,
+        confirmUser: false,
+        completeUser: false,
+        createdUser: false,
     },
     reducers: {
-        handleErrorMsg: (state, action) => {
-            const newError = action.payload
-            state.errorMsg = newError
+        handleShowForm: (state) => {
+            state.showForm = !state.showForm
         },
-
-        closeModal: (state) => {
-            state.errorMsg = null
+        handleEditUser: (state, action) => {
+            state.editUser = !state.editUser
+        },
+        handleConfirmUser: (state) => {
+            state.confirmUser = !state.confirmUser
+        },
+        handleCompleteUser: (state) => {
+            state.completeUser = !state.completeUser
+        },
+        handleCreatedUser: (state) => {
+            state.createdUser = !state.createdUser
         }
     }
 })
 
 export default usersUISlice.reducer
-export const { handleErrorMsg, closeModal } = usersUISlice.actions
-// FALTA CONSUMIR POR COMPONENTES
+export const { handleShowForm, handleConfirmUser, handleCompleteUser, handleCreatedUser } = usersUISlice.actions

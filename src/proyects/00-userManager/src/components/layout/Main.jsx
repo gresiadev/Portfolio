@@ -1,12 +1,12 @@
 // Hooks 
 import UserForm from "./UserForm"
-import useFormUser from "../../hooks/useFormUser"
+import { useAppSelector } from "../../hooks/useStore"
 
 // Components 
 import ModalCreated from "../modals/ModalCreated"
 
 function Main({ routerContent }) {
-   const { showForm, createdUser } = useFormUser()
+   const { showForm, createdUser } = useAppSelector(store => store.usersUI)
 
    const form = showForm && <UserForm />
 

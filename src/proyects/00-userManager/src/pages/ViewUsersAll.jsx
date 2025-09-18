@@ -1,7 +1,11 @@
 
 // Hooks 
 import { useEffect, useState } from "react"
-import useFormUser from "../hooks/useFormUser"
+// import useFormUser from "../hooks/useFormUser"
+import { useAppDispatch } from "../hooks/useStore"
+
+// Reducers 
+import { setUsers } from "../store/users/usersSlice"
 
 // Components 
 import { ListOfUsers } from "../components/users/ListUsers"
@@ -11,12 +15,12 @@ import { searchAllUsers } from "../services/pagesServices"
 
 
 function ViewUsersAll() {
-   const { handleUsers } = useFormUser()
+   const dispatch = useAppDispatch()
 
    const getAllUsers = async () => {
       try {
          const newUsers = await searchAllUsers()
-         handleUsers(newUsers)
+         dispatch(setUsers(newUsers))
       } catch (error) {
          console.log(error.message)
       }

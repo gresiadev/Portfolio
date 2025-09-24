@@ -1,8 +1,9 @@
+// Hooks 
 import { useState, useEffect } from "react"
-import useFormUser from "./useFormUser"
+import { useAppSelector } from "./useStore"
 
 function useFormValidity() {
-   const { currentUser } = useFormUser()
+   const { currentUser } = useAppSelector(state => state.users)
 
    const [formData, setFormData] = useState({
       id: null,
@@ -120,7 +121,7 @@ function useFormValidity() {
       if (!formData.address.city.trim()) {
          errors.address.city = "Debes ingresar una ciudad."
          isValid = false
-      } else if ( !/^[a-zA-Z\s]+$/.test(formData.address.city.trim())) {
+      } else if (!/^[a-zA-Z\s]+$/.test(formData.address.city.trim())) {
          errors.address.city = "Solo puede contener letras y espacios."
          isValid = false
       } else if (formData.address.city.trim().length < 2) {

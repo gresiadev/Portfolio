@@ -32,4 +32,4 @@ const usersUISlice = createSlice({
 })
 
 export default usersUISlice.reducer
-export const { handleShowForm, handleConfirmUser, handleCompleteUser, handleCreatedUser } = usersUISlice.actions
+export const { handleShowForm, handleEditUser, handleConfirmUser, handleCompleteUser, handleCreatedUser } = usersUISlice.actions

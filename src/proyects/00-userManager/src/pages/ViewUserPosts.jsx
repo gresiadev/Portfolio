@@ -10,10 +10,16 @@ import { searchPosts } from "../services/pagesServices"
 
 function ViewUserPosts() {
    const { userID } = useParams()
+   const [userCreated, setUserCreated] = useState(false)
    const [posts, setPosts] = useState(null)
 
    const getPosts = async (userID) => {
       try {
+         if (userID.length > 2) {
+            setUserCreated(true)
+            return
+         }
+
          const posts = await searchPosts(userID)
          setPosts(posts)
 
@@ -29,7 +35,12 @@ function ViewUserPosts() {
    return (<>
       <section className="userManager__posts-container">
          <h1 className="userManager__posts-h1">Lista de posts</h1>
-         <ListOfPosts posts={posts} />
+         {
+            userCreated
+               ? <h2>Este usuario al ser creado no tiene posts.</h2>
+               : <ListOfPosts posts={posts} />
+         }
+
       </section>
    </>)
 }

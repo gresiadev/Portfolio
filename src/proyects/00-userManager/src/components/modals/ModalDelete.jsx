@@ -1,5 +1,4 @@
 // Hooks 
-import useFormUser from "../../hooks/useFormUser"
 import { useNavigate } from "react-router-dom"
 import { useAppSelector, useAppDispatch } from "../../hooks/useStore"
 
@@ -8,7 +7,6 @@ import { handleConfirmUser, handleCompleteUser } from "../../store/usersUI/users
 
 // Reducer 
 import { fetchDeleteUser } from "../../store/users/usersSlice"
-import { useEffect } from "react"
 
 function ConfirmDelete({ user }) {
    const dispatch = useAppDispatch()
@@ -49,7 +47,6 @@ function CompletDelete() {
             <button
                className="userManager__modal-complet-delete-button"
                onClick={() => {
-                  console.log("Antes de ponerlo false")
                   dispatch(handleCompleteUser())
                   navigate("/gresia-dev/projects/UserManager/private/viewUsersAll")
                }}
@@ -64,7 +61,6 @@ function CompletDelete() {
 function ModalDelete({ user }) {
    const { confirmUser, completeUser } = useAppSelector(state => state.usersUI)
 
-   useEffect(()=>{console.log(completeUser)},[completeUser])
    return (<>
       {confirmUser && <ConfirmDelete user={user} />}
       {completeUser && <CompletDelete />}

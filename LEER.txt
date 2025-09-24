@@ -1,45 +1,12 @@
-Empezamos modificando usersManager
-- Generar carpeta App ✅
-- Implementar store ✅
-    |- users  |- usersUI |- token
+Empezamos modificando usersManager ✅
+Seguir con League Builder 
 
-- Ver contextos 
-    |- token            => token 
-    |- useFormValidity  => usersUI
-    |- userForm         => users
-
-- Mover contextos a redux [seguir acá ...]
-    |- token ✅
-    |- useFormValidity => No va a redux, quedá en custom hook afecta a un solo componente. ✅
-    |- userForm [ aca...]
-
-- Borrar contextos
-- Borrar usersUI ?
-
-======================= 
-La idea es dejar un custom hook que consuma los dos slices tanto el de users como el usersUI => Sería userFormUser
-=======================
-
-PASO A PASO:
-Arreglar el nav de izquierda a derecha 
-    |- Primero ViewUsersAll 
-        |- Visualizar los users ✅
-    |- Segundo ViewUser       
-        |- En la card de users
-            |- Btn eliminar ✅
-                |- Que al cambiar el estado se muestre confirm delete 
-                    |- Btn Cancelar ✅
-                    |- Btn Eliminar 
-                        |- Ejecute funcion deleteUser ✅
-                        |- Cierre modal ✅
-                    |- Btn Editar
-                        |- No cierra Formulario [acá...]
-                        |- Funcion editar
-    |- Tercero Create user
-
-Errores:
-    - UserForm => handleSubmit is not a function
-    - ViewUsersAll => handleUsers is not function
+Lo que sigue:
+    |- Agregar readme => No hace falta explicar todo, pero al menos: propósito, stack usado, cómo correrlo y features principales.
 
 
-Nota: Actualización de contextos a redux, funciones y datos globales compartidos, estructuración nueva de carpetas y rutas, funciones asyncs manipuladas por thunks, arreglo de bugs y malos funcionamientos. Importante separación entre logica y UI.
+Errores: x
+
+Nota: Actualización de context API a redux: Funciones y datos globales, Nueva estructuración de carpetas y rutas, Funciones asyncs manipuladas por thunks, Arreglo de bugs y malos funcionamientos. Importante separación entre logica y UI.
+
+Instalación de paquete UUID para crear identificadores unicos.

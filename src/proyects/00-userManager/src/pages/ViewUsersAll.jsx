@@ -1,33 +1,34 @@
 
 // Hooks 
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
+
 // import useFormUser from "../hooks/useFormUser"
-import { useAppDispatch } from "../hooks/useStore"
+import { useAppDispatch, useAppSelector } from "../hooks/useStore"
 
 // Reducers 
-import { setUsers } from "../store/users/usersSlice"
+import { fetchUsers, setFirstTime } from "../store/users/usersSlice"
 
 // Components 
 import { ListOfUsers } from "../components/users/ListUsers"
 
-// Services 
-import { searchAllUsers } from "../services/pagesServices"
-
 
 function ViewUsersAll() {
    const dispatch = useAppDispatch()
-
-   const getAllUsers = async () => {
-      try {
-         const newUsers = await searchAllUsers()
-         dispatch(setUsers(newUsers))
-      } catch (error) {
-         console.log(error.message)
-      }
-   }
+   const { users, firstTime } = useAppSelector(state => state.users)
 
    useEffect(() => {
-      getAllUsers()
+
+      if (firstTime) {
+         dispatch(setFirstTime())
+         dispatch(fetchUsers())
+         return
+      }
+
+      if (users.length < 1) {
+         setTimeout(() => {
+            dispatch(fetchUsers())
+         }, [5000])
+      }
    }, [])
 
    return (<>

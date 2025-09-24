@@ -1,22 +1,28 @@
 // Hooks 
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
+import { useAppSelector } from "../hooks/useStore"
 
 // Components 
 import { CompletUser } from "../components/users/ListUsers"
 
-// Services 
-import { searchUser } from "../services/pagesServices"
-
 function ViewUser() {
    const { userID } = useParams()
+   const { users } = useAppSelector(state => state.users)
    const [user, setUser] = useState(null)
 
    const getUser = async (userID) => {
       try {
-         const newUser = await searchUser(userID)
+         if (userID.length > 2) {
+            const userToShow = users.find(user => user.id === userID)
+            setUser(userToShow)
+            return
+         }
 
-         setUser(newUser)
+         const newUSERID = Number(userID)
+         const userToShow = users.find(user => user.id === newUSERID)
+         setUser(userToShow)
+
       } catch (error) {
          console.log(error.message)
       }
@@ -29,7 +35,9 @@ function ViewUser() {
    return (<>
       <section className="userManager__view-user-container">
          <h1 className="userManager__view-user-h1">Detalles del usuario</h1>
+
          <CompletUser user={user} />
+
       </section>
    </>)
 }

@@ -12,9 +12,11 @@ import { useAppSelector, useAppDispatch } from "../../hooks/useStore"
 import { handleConfirmUser } from "../../store/usersUI/usersUISlice"
 
 function User({ user }) {
+   const textUserID = user?.id.length > 2 ? user?.id.slice(0, 4) : user?.id
+
    return (
       <li className="userManager__view-users-all-user">
-         <h3 className="userManager__view-users-all-user-h3 "><span className="userManager__view-users-all-user-h3-span">userID:</span> {user.id}</h3>
+         <h3 className="userManager__view-users-all-user-h3 "><span className="userManager__view-users-all-user-h3-span">userID:</span> {textUserID}</h3>
          <p className="userManager__view-users-all-user-p"><span className="userManager__view-users-all-user-p-span">Name:</span> {user.name}</p>
          <CustomNavLink to={`/gresia-dev/projects/UserManager/private/viewUser/${user.id}`}
          >
@@ -25,7 +27,8 @@ function User({ user }) {
 }
 
 function CompletUser({ user }) {
-   const { createUser, editUser } = useFormUser()
+   const { createUser } = useFormUser()
+   const { editUser } = useAppSelector(state => state.usersUI)
    const dispatch = useAppDispatch()
 
    return (<>
@@ -107,7 +110,7 @@ function CompletUser({ user }) {
 }
 
 function NoResults() {
-   return <h2 className="userManager__view-users-all-h2">No users results...</h2>
+   return <h2 className="userManager__view-users-all-h2">Al no haber usuarios se buscarán nuevos...</h2>
 }
 
 function ListOfUsers() {

@@ -7,8 +7,14 @@ import { ChampionsProvider } from "../context/champions";
 import { FiltersProvider } from "../context/filters";
 import { TeamProvider } from "../context/team";
 
+
+// Store
+import store from "../store/store";
+import { Provider } from "react-redux";
+
 function AppHookContainer() {
    return (
+      <Provider store={store}>
          <ChampionsProvider>
             <FiltersProvider>
                <TeamProvider>
@@ -18,6 +24,7 @@ function AppHookContainer() {
                </TeamProvider>
             </FiltersProvider>
          </ChampionsProvider>
+      </Provider>
    )
 }
 

@@ -7,7 +7,6 @@ import ModalCreated from "../modals/ModalCreated"
 
 function Main({ routerContent }) {
    const { showForm, createdUser } = useAppSelector(store => store.usersUI)
-
    const form = showForm && <UserForm />
 
    return (

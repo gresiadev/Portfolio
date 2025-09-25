@@ -12,3 +12,15 @@ function useChampions() {
 }
 
 export { useChampions }
+
+/*
+   Traer:
+   Champions
+   championsFiltereds, 
+   ChampionToShow,
+
+   Reducers
+   handleChampionToShow
+   handleChampionsFiltereds
+
+*/

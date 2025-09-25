@@ -1,7 +1,5 @@
+// Functions 
 import { createSlice } from "@reduxjs/toolkit";
-import useFormUser from "../../hooks/useFormUser";
-
-// const { currentUSer } = useFormUser()
 
 const usersUISlice = createSlice({
     name: "usersUI",

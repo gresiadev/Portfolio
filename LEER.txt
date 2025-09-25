@@ -1,12 +1,35 @@
-Empezamos modificando usersManager ✅
-Seguir con League Builder 
+
+
+    |- League Builder 
+        |- Contextos
+            |- Crear store y setearlo ✅
+            |- Champions => Todos los campeones
+                |- Crear slice ✅
+                |- Setear slice en store ✅
+                |- Mover todo al slice ✅
+            |- Filters => Filtro de personajes (poderes)
+            |- Team => Equipo armado
+        |- Crear custom hook para: ✅
+            |- dispatch  |- selector
+
+        |- General
+            |- Mover champions a redux ✅ 
+            |- Mover filters a redux ✅
+            |- Mover team a redux [...]
+
+            |- Modificar custom hook useChampions
+            |- Modificar custom hook useFilters
+            |- Modificar custom hook useTeam
+
+        |- ViewAllChampions
+            |- Hacer que se vean
+
+    Recordar que la funcionalidad debería ser 
+    Redux => Custom hook => Componentes 
 
 Lo que sigue:
-    |- Agregar readme => No hace falta explicar todo, pero al menos: propósito, stack usado, cómo correrlo y features principales.
-
+- Mover team a redux => Tener en cuenta que team tiene un reducer.
 
 Errores: x
 
-Nota: Actualización de context API a redux: Funciones y datos globales, Nueva estructuración de carpetas y rutas, Funciones asyncs manipuladas por thunks, Arreglo de bugs y malos funcionamientos. Importante separación entre logica y UI.
-
-Instalación de paquete UUID para crear identificadores unicos.
+Nota: 

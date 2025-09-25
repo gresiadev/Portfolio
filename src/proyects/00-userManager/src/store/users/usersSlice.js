@@ -1,3 +1,4 @@
+// Functions 
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 // Services 
@@ -114,7 +115,6 @@ const usersSlice = createSlice({
             .addCase(fetchUsers.rejected, (state) => {
                 state.status = "failed"
             })
-
     }
 })
 

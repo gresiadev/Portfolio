@@ -4,13 +4,13 @@ import { createContext, useReducer } from "react";
 // Reducer 
 import reducerTeam from "../reducers/teamReducer";
 
+import { initialTeam } from "../logic/vars";
+
 const TeamContext = createContext()
 
 function TeamProvider({ children }) {
 
-   const initialValue = JSON.parse(window.localStorage.getItem("team")) || []
-
-   const [state, dispatch] = useReducer(reducerTeam, initialValue)
+   const [state, dispatch] = useReducer(reducerTeam, initialTeam)
 
    const addToTeam = (newChampion) => dispatch({
       type: "ADD_TO_TEAM",

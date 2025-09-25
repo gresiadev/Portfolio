@@ -1,4 +1,7 @@
+// Componentes 
 import CustomNavLink from "../navigation/NavLink"
+
+// Hooks 
 import useFormUser from "../../hooks/useFormUser"
 
 function Header() {
@@ -15,9 +18,9 @@ function Header() {
                   View Users
                </CustomNavLink>
 
-               <button 
-               className="userManager__header-button"
-               onClick={() => { createUser() }}>
+               <button
+                  className="userManager__header-button"
+                  onClick={() => { createUser() }}>
                   Create User
                </button>
             </nav>

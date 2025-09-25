@@ -1,7 +1,7 @@
 // Hooks 
 import useFormUser from "../../hooks/useFormUser"
 import useFormValidity from "../../hooks/useFormValidity"
-import { useAppDispatch, useAppSelector } from "../../hooks/useStore"
+import { useAppDispatch } from "../../hooks/useStore"
 
 // Reducer 
 import { handleShowForm } from "../../store/usersUI/usersUISlice"
@@ -202,7 +202,6 @@ function FormCreateUser() {
                {txtBtn}
             </button>
          </form>
-
       </section>
    )
 }

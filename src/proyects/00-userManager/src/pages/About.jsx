@@ -28,7 +28,7 @@ function About() {
                </li>
                <li className="userManager__about-li">
                   <span><IconList /></span>
-                  Context API + hooks personalizados para el manejo de estados globales
+                  Redux Toolkit + hooks personalizados para el manejo de estados globales
                </li>
                <li className="userManager__about-li">
                   <span><IconList /></span>

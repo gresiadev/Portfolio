@@ -11,5 +11,7 @@ const initialFilters = JSON.parse(
    minAp: 0
 }
 
+const initialTeam = JSON.parse(window.localStorage.getItem("team")) || []
 
-export { initialFilters, initialChampions, initialChampionToShow }
+
+export { initialFilters, initialChampions, initialChampionToShow, initialTeam }

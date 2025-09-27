@@ -1,18 +1,31 @@
-import { useContext } from "react";
-import { TeamContext } from "../context/team";
+// Hooks 
+import { useAppDispatch, useAppSelector } from "./useStore"
+
+// Reducers 
+import { addToTeam, removeFromTeam, clearTeam } from "../store/team/teamSlice"
+import { useEffect } from "react"
 
 function useTeam() {
-   const teamContext = useContext(TeamContext)
+   const { team } = useAppSelector(state => state.team)
+   const dispatch = useAppDispatch()
 
-   if (teamContext === undefined) {
-      throw new Error("Falta contexto")
+   const handleAddToTeam = (newChampion) => {
+      dispatch(addToTeam(newChampion))
    }
 
-   return teamContext
+   const handleRemoveFromTeam = (championToRemove) => {
+      dispatch(removeFromTeam(championToRemove))
+   }
+
+   const handleClearTeam = () => {
+      dispatch(clearTeam())
+   }
+
+   useEffect(() => {
+      window.localStorage.setItem("team", JSON.stringify(team))
+   }, [team])
+
+   return { team, handleAddToTeam, handleRemoveFromTeam, handleClearTeam }
 }
 
 export { useTeam }
-
-/*
-
-*/

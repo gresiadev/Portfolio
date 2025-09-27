@@ -6,7 +6,8 @@ import { useTeam } from "../../hooks/useTeam"
 import CustomNavLink from "../navigation/CustomNavlinks"
 
 function Champion({ champion }) {
-   const { addToTeam, removeFromTeam } = useTeam()
+   const { handleAddToTeam, handleRemoveFromTeam } = useTeam()
+
    return (
       <li className="leagueTeam__view-champions-all-champion-card">
          <h3 className="leagueTeam__view-champions-all-champion-card-h3">{champion.name}</h3>
@@ -19,11 +20,11 @@ function Champion({ champion }) {
          <div className="leagueTeam__view-champions-all-champion-card-action-btns-container ">
             <button
                className="leagueTeam__view-champions-all-champion-card-button"
-               onClick={() => { removeFromTeam(champion) }}
+               onClick={() => { handleRemoveFromTeam(champion) }}
             >➖</button>
             <button
                className="leagueTeam__view-champions-all-champion-card-button"
-               onClick={() => { addToTeam(champion) }}
+               onClick={() => { handleAddToTeam(champion) }}
             >➕</button>
          </div>
          <CustomNavLink

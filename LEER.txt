@@ -12,23 +12,44 @@
         |- Crear custom hook para: ✅
             |- dispatch  |- selector
 
+Viernes 26
         |- General
             |- Mover champions a redux ✅ 
             |- Mover filters a redux ✅
-            |- Mover team a redux [...]
+            |- Mover team a redux ✅
 
-            |- Modificar custom hook useChampions
-            |- Modificar custom hook useFilters
-            |- Modificar custom hook useTeam
+            |- Modificar custom hook useChampions ✅
+            |- Modificar custom hook useFilters ✅
+            |- Modificar custom hook useTeam ✅
+
+        |- Eliminar Providers ✅
 
         |- ViewAllChampions
-            |- Hacer que se vean
+            |- Al entrar tira error de dispatch ✅
+            |- Hacer que se vean ✅
+            |- Filters andan y mantienen persistencia ✅
+            |- En las cards 
+                |- Funcion restar ✅
+                |- Funcion sumar ✅ 
+                |- Funcion ver mas ✅
 
-    Recordar que la funcionalidad debería ser 
-    Redux => Custom hook => Componentes 
+        |- Team 
+            |-En las cards 
+                |- funcion sumar ✅
+                |- funcion restar ✅
+
+        |- Que todo funcione ✅
+
+        |- Cambiar en about
+            |- Parrafo que dice "context api" por "redux toolkit" ✅
+            |- Sacar parrafo "userReducer" ✅
+
+    |- Borrar contextos ✅
+    |- Borrar reducer ✅
 
 Lo que sigue:
-- Mover team a redux => Tener en cuenta que team tiene un reducer.
+
+    |- Organizar codigo
 
 Errores: x
 

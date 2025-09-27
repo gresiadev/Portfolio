@@ -1,13 +1,22 @@
 // Hooks 
 import { useFilters } from "../../hooks/useFilters"
 import { useId } from "react"
+import { useAppSelector } from "../../hooks/useStore"
+
 
 function FiltersChampions() {
+   const { filters } = useAppSelector(state => state.filters)
+   const {
+      // Functions  
+      handleType,
+      handleMinAd,
+      handleMinAp
+   } = useFilters()
+
+   // Inputs identifiers 
    const FilterTypeID = useId()
    const FilterMinApID = useId()
    const FilterMinAdID = useId()
-
-   const { filters, handleType, handleMinAd, handleMinAp } = useFilters()
 
    const handleChangeType = (ev) => {
       const newType = ev.target.value

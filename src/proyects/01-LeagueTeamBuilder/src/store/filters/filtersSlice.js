@@ -10,17 +10,17 @@ const filtersSlice = createSlice({
         status: "idle",
     },
     reducers: {
-        handleType: (state, action) => {
+        changeType: (state, action) => {
             state.filters.type = action.payload
         },
-        handleMinAp: (state, action) => {
+        changeMinAp: (state, action) => {
             state.filters.minAp = action.payload
         },
-        handleMinAd: (state, action) => {
+        changeMinAd: (state, action) => {
             state.filters.minAd = action.payload
         },
     }
 })
 
 export default filtersSlice.reducer
-export const { handleType, handleMinAd, handleMinAp } = filtersSlice.actions
+export const { changeType, changeMinAd, changeMinAp } = filtersSlice.actions

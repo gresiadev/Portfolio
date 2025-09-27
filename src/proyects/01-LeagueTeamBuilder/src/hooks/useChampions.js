@@ -1,26 +1,31 @@
-import { useContext } from "react"
-import { ChampionsContext } from "../context/Champions"
+// Hooks 
+import { useAppSelector, useAppDispatch } from "./useStore"
+
+// Reducers 
+import { updateChampionToShow, updateChampionsFiltereds } from "../store/champions/championsSlice"
 
 function useChampions() {
-   const championContext = useContext(ChampionsContext)
 
-   if (championContext === undefined) {
-      throw new Error("Falta contexto")
+   const { champions, championsFiltereds, championToShow } = useAppSelector(state => state.champions)
+
+   const dispatch = useAppDispatch()
+
+   const handleChampionToShow = (newChampion) => {
+      dispatch(updateChampionToShow(newChampion))
+   }
+   const handleChampionsFiltereds = (newsChampions) => {
+      dispatch(updateChampionsFiltereds(newsChampions))
    }
 
-   return championContext
+   return {
+      // States 
+      champions,
+      championsFiltereds,
+      championToShow,
+
+      // Functions 
+      handleChampionToShow,
+      handleChampionsFiltereds,
+   }
 }
-
 export { useChampions }
-
-/*
-   Traer:
-   Champions
-   championsFiltereds, 
-   ChampionToShow,
-
-   Reducers
-   handleChampionToShow
-   handleChampionsFiltereds
-
-*/

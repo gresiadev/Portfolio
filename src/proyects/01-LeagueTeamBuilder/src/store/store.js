@@ -3,7 +3,7 @@ import { configureStore } from "@reduxjs/toolkit";
 
 // Slices 
 import championsSlice from "./champions/championsSlice"
-import filtersSlice from "./filters/filters"
+import filtersSlice from "./filters/filtersSlice"
 import teamSlice from "./team/teamSlice"
 
 const store = configureStore({

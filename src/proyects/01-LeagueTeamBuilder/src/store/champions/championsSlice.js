@@ -13,14 +13,14 @@ const championsSlice = createSlice({
         status: "idle"
     },
     reducers: {
-        handleChampionToShow: (state, action) => {
+        updateChampionToShow: (state, action) => {
             state.championToShow = action.payload
         },
-        handleChampionsFiltereds: (state, action) => {
+        updateChampionsFiltereds: (state, action) => {
             state.championsFiltereds = action.payload
         }
     }
 })
 
 export default championsSlice.reducer
-export const { handleChampionToShow, handleChampionsFiltereds } = championsSlice.actions
+export const { updateChampionToShow, updateChampionsFiltereds } = championsSlice.actions

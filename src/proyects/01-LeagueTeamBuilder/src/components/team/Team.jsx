@@ -4,10 +4,10 @@ import { useId } from "react"
 
 function Team() {
    const InputCheckTeamId = useId()
-   const { clearTeam, team } = useTeam()
+   const { team, handleClearTeam } = useTeam()  
 
    function TeamCard({ champion }) {
-      const { addToTeam, removeFromTeam } = useTeam()
+      const { handleAddToTeam, handleRemoveFromTeam } = useTeam()
       return (
          <li className="leagueTeam__team-card">
             <h3 className="leagueTeam__team-card-h3">{champion.name}</h3>
@@ -15,10 +15,10 @@ function Team() {
             <p>Quantity: <span className="leagueTeam__team-card-number-quantity">{champion.quantity}</span></p>
             <div className="leagueTeam__team-card-action-btns-container ">
                <button
-                  onClick={() => { removeFromTeam(champion) }}
+                  onClick={() => { handleRemoveFromTeam(champion) }}
                >➖</button>
                <button
-                  onClick={() => { addToTeam(champion) }}
+                  onClick={() => { handleAddToTeam(champion) }}
                >➕</button>
             </div>
          </li>
@@ -39,7 +39,7 @@ function Team() {
       )
    }
 
-   const btnClearTeam = team?.length > 0 && <button onClick={clearTeam} className="leagueTeam__btn-clear-team">Clear Team</button>
+   const btnClearTeam = team?.length > 0 && <button onClick={handleClearTeam} className="leagueTeam__btn-clear-team">Clear Team</button>
 
    return (<>
       <label

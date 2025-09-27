@@ -33,19 +33,20 @@ function About() {
             <ul className="leagueTeam__about-section-3-list">
                <li className="leagueTeam__about-section-3-li">
                   <span><IconList /></span>
-                  React Router DOM para navegación entre vistas.</li>
+                  React Router DOM para navegación entre vistas.
+               </li>
                <li className="leagueTeam__about-section-3-li">
                   <span><IconList /></span>
-                  <strong className="leagueTeam__about-section-3-strong ">Context API</strong> para manejo global del estado (campeones, filtros y team).</li>
+                  <strong className="leagueTeam__about-section-3-strong ">Redux Toolkit</strong> para manejo global del estado (campeones, filtros y team).
+               </li>
                <li className="leagueTeam__about-section-3-li">
                   <span><IconList /></span>
-                  <strong className="leagueTeam__about-section-3-strong ">Custom Hooks</strong> para controlar el acceso seguro a los contextos.</li>
+                  <strong className="leagueTeam__about-section-3-strong ">Custom Hooks</strong> para controlar el acceso seguro a los contextos.
+               </li>
                <li className="leagueTeam__about-section-3-li">
                   <span><IconList /></span>
-                  <strong className="leagueTeam__about-section-3-strong ">useReducer</strong> para manejar la lógica compleja del team (agregar, quitar, aumentar cantidad, limpiar).</li>
-               <li className="leagueTeam__about-section-3-li">
-                  <span><IconList /></span>
-                  Persistencia de datos con localStorage.</li>
+                  Persistencia de datos con localStorage.
+               </li>
             </ul>
 
             <p>

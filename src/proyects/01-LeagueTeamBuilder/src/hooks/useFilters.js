@@ -1,29 +1,21 @@
-import { useContext } from "react";
-import { FiltersContext } from "../context/filters";
+// Hooks 
+import { useAppSelector, useAppDispatch } from "./useStore"
+import { useChampions } from "./useChampions"
+import { useEffect } from "react"
+
+// Reducers 
+import { changeMinAd, changeMinAp, changeType } from "../store/filters/filtersSlice"
 
 function useFilters() {
-   const filtersContext = useContext(FiltersContext)
 
-   if (filtersContext === undefined) {
-      throw new Error("Falta contexto")
-   }
-
-   return filtersContext
-}
-
-export { useFilters }
-/*
-   Estados quedan en el hook
-   const { champions } = useAppSelector(state => state.champions)
    const dispatch = useAppDispatch()
-
-   const { handleChampionsFiltereds } = useChampions()
+   const { champions } = useAppSelector(state => state.champions)
    const { filters } = useAppSelector(state => state.filters)
 
-   Esta funcion queda en el hook 
+   const { handleChampionsFiltereds } = useChampions()
 
    const championsFilter = () => {
-      const newChampions = champions.filter(champion =>
+      const newsChampions = champions.filter(champion =>
          (
             filters.minAp <= champion.magicPower &&
             filters.minAd <= champion.attackPower
@@ -33,17 +25,30 @@ export { useFilters }
             filters.type === champion.type
          )
       )
-      dispatch(handleChampionsFiltereds(newChampions))
-
+      handleChampionsFiltereds(newsChampions)
    }
 
-   Este efecto queda en el hook
+   const handleMinAd = (newMinAd) => {
+      dispatch(changeMinAd(newMinAd))
+   }
+   const handleMinAp = (newMinAp) => {
+      dispatch(changeMinAp(newMinAp))
+   }
+   const handleType = (newType) => {
+      dispatch(changeType(newType))
+   }
 
-      useEffect(() => {
-         championsFilter()
-         window.localStorage.setItem("filters", JSON.stringify(filters))
-      }, [filters])
+   useEffect(() => {
+      championsFilter()
+      window.localStorage.setItem("filters", JSON.stringify(filters))
+   }, [filters])
 
-   Traer:
-   handleType, handleMinAp, handleMinAD = FILTERS 
-*/
+   return {
+      // Functions
+      handleMinAd,
+      handleMinAp,
+      handleType,
+   }
+}
+
+export { useFilters }

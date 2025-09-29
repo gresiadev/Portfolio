@@ -20,7 +20,7 @@ function Header() {
 
                <button
                   className="userManager__header-button"
-                  onClick={() => { createUser() }}>
+                  onClick={() => createUser()}>
                   Create User
                </button>
             </nav>

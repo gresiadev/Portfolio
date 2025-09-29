@@ -1,15 +1,11 @@
+// Components 
 import CustomNavLink from "../navigation/NavLink"
-import useFormUser from "../../hooks/useFormUser"
-
-// UI USERS MODALS 
 import ModalDelete from "../modals/ModalDelete"
 import ModalEdit from "../modals/ModalEdit"
 
 // Hooks 
-import { useAppSelector, useAppDispatch } from "../../hooks/useStore"
-
-// Reducers 
-import { handleConfirmUser } from "../../store/usersUI/usersUISlice"
+import useUsersUI from "../../hooks/useUsersUI"
+import useFormUser from "../../hooks/useFormUser"
 
 function User({ user }) {
    const textUserID = user?.id.length > 2 ? user?.id.slice(0, 4) : user?.id
@@ -28,8 +24,7 @@ function User({ user }) {
 
 function CompletUser({ user }) {
    const { createUser } = useFormUser()
-   const { editUser } = useAppSelector(state => state.usersUI)
-   const dispatch = useAppDispatch()
+   const { editUser, handleConfirmUser } = useUsersUI()
 
    return (<>
       {
@@ -97,7 +92,7 @@ function CompletUser({ user }) {
                </button>
                <button
                   className="userManager__view-user-user-complete-btn-actions-button"
-                  onClick={() => dispatch(handleConfirmUser())}
+                  onClick={handleConfirmUser}
                >
                   Eliminar
                </button>
@@ -114,7 +109,7 @@ function NoResults() {
 }
 
 function ListOfUsers() {
-   const { users } = useAppSelector(state => state.users)
+   const { users } = useFormUser()
    const hasUsers = users?.length > 0
 
    return (

@@ -1,15 +1,12 @@
 // Hooks 
 import { useNavigate } from "react-router-dom"
-import { useAppSelector, useAppDispatch } from "../../hooks/useStore"
-
-// Reducers UI 
-import { handleConfirmUser, handleCompleteUser } from "../../store/usersUI/usersUISlice"
-
-// Reducer 
-import { fetchDeleteUser } from "../../store/users/usersSlice"
+import useUsersUI from "../../hooks/useUsersUI"
+import useFormUser from "../../hooks/useFormUser"
 
 function ConfirmDelete({ user }) {
-   const dispatch = useAppDispatch()
+
+   const { deleteUser } = useFormUser()
+   const { handleConfirmUser } = useUsersUI()
 
    return (
       <section className="userManager__modal-delete-container">
@@ -18,17 +15,13 @@ function ConfirmDelete({ user }) {
             <div className="userManager__modal-confirm-delete-btns-container">
                <button
                   className="userManager__modal-confirm-delete-btns-container-button "
-                  onClick={() => {
-                     dispatch(handleConfirmUser())
-                     dispatch(handleCompleteUser())
-                     dispatch(fetchDeleteUser(user.id))
-                  }}
+                  onClick={() => { deleteUser(user.id) }}
                >
                   Eliminar
                </button>
                <button
                   className="userManager__modal-confirm-delete-btns-container-button "
-                  onClick={() => dispatch(handleConfirmUser())}>
+                  onClick={() => handleConfirmUser()}>
                   Cancelar
                </button>
             </div>
@@ -38,8 +31,9 @@ function ConfirmDelete({ user }) {
 }
 
 function CompletDelete() {
-   const dispatch = useAppDispatch()
+   const { handleCompleteUser } = useUsersUI()
    const navigate = useNavigate()
+
    return (
       <section className="userManager__modal-delete-container">
          <div className="userManager__modal-complet-delete">
@@ -47,7 +41,7 @@ function CompletDelete() {
             <button
                className="userManager__modal-complet-delete-button"
                onClick={() => {
-                  dispatch(handleCompleteUser())
+                  handleCompleteUser()
                   navigate("/gresia-dev/projects/UserManager/private/viewUsersAll")
                }}
             >
@@ -59,7 +53,7 @@ function CompletDelete() {
 }
 
 function ModalDelete({ user }) {
-   const { confirmUser, completeUser } = useAppSelector(state => state.usersUI)
+   const { confirmUser, completeUser } = useUsersUI()
 
    return (<>
       {confirmUser && <ConfirmDelete user={user} />}

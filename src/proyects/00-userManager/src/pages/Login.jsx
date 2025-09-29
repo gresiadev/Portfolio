@@ -1,13 +1,8 @@
 // Hooks 
-import { useAppSelector, useAppDispatch } from "../hooks/useStore"
-
-// Token 
-import { handleToken } from "../store/token/tokenSlice"
+import useToken from "../hooks/useToken"
 
 function Login() {
-   const { token } = useAppSelector(state => state.token)
-   const dispatch = useAppDispatch()
-
+   const { token, handleToken } = useToken()
    const logText = token ? "Logged in" : "Log in to access"
    const btnText = token ? "Log Out" : "Log In"
 
@@ -17,7 +12,7 @@ function Login() {
             <h2 className="userManager__login-title">{logText}</h2>
             <button
                className="userManager__login-button"
-               onClick={() => dispatch(handleToken())}
+               onClick={handleToken}
             >
                {btnText}
             </button>

@@ -1,32 +1,25 @@
 // Hooks 
 import { useEffect } from "react"
-
-// import useFormUser from "../hooks/useFormUser"
-import { useAppDispatch, useAppSelector } from "../hooks/useStore"
-
-// Reducers 
-import { fetchUsers, setFirstTime } from "../store/users/usersSlice"
+import useFormUser from "../hooks/useFormUser"
 
 // Components 
 import { ListOfUsers } from "../components/users/ListUsers"
 
-
 function ViewUsersAll() {
-   const dispatch = useAppDispatch()
-   const { users, firstTime } = useAppSelector(state => state.users)
+
+   const { users, firstTime, firstTimeValidate, getUsers } = useFormUser()
 
    useEffect(() => {
 
       if (firstTime) {
-         dispatch(setFirstTime())
-         dispatch(fetchUsers())
+         firstTimeValidate()
          return
       }
 
       if (users.length < 1) {
          setTimeout(() => {
-            dispatch(fetchUsers())
-         }, [5000])
+            getUsers()
+         }, [4000])
       }
    }, [])
 

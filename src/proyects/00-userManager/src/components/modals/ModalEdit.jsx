@@ -1,12 +1,10 @@
 // Hooks 
 import { useNavigate } from "react-router-dom"
-import { useAppDispatch } from "../../hooks/useStore"
-
-// Reducers 
-import { handleEditUser } from "../../store/usersUI/usersUISlice"
+import useUsersUI from "../../hooks/useUsersUI"
 
 function ModalEdit() {
-   const dispatch = useAppDispatch()
+
+   const { handleEditUser } = useUsersUI()
    const navigate = useNavigate()
 
    return (
@@ -16,7 +14,7 @@ function ModalEdit() {
             <button
                className="userManager__modal-edit-button"
                onClick={() => {
-                  dispatch(handleEditUser())
+                  handleEditUser()
                   navigate("/gresia-dev/projects/UserManager/private/viewUsersAll")
                }}>
                Aceptar

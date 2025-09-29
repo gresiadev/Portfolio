@@ -11,23 +11,23 @@ const usersUISlice = createSlice({
         createdUser: false,
     },
     reducers: {
-        handleShowForm: (state) => {
+        changeShowForm: (state) => {
             state.showForm = !state.showForm
         },
-        handleEditUser: (state, action) => {
+        changeEditUser: (state, action) => {
             state.editUser = !state.editUser
         },
-        handleConfirmUser: (state) => {
+        changeConfirmUser: (state) => {
             state.confirmUser = !state.confirmUser
         },
-        handleCompleteUser: (state) => {
+        changeCompleteUser: (state) => {
             state.completeUser = !state.completeUser
         },
-        handleCreatedUser: (state) => {
+        changeCreatedUser: (state) => {
             state.createdUser = !state.createdUser
         }
     }
 })
 
 export default usersUISlice.reducer
-export const { handleShowForm, handleEditUser, handleConfirmUser, handleCompleteUser, handleCreatedUser } = usersUISlice.actions
+export const { changeShowForm, changeEditUser, changeConfirmUser, changeCompleteUser, changeCreatedUser } = usersUISlice.actions

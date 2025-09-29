@@ -1,15 +1,12 @@
 // Hooks 
 import useFormUser from "../../hooks/useFormUser"
 import useFormValidity from "../../hooks/useFormValidity"
-import { useAppDispatch } from "../../hooks/useStore"
-
-// Reducer 
-import { handleShowForm } from "../../store/usersUI/usersUISlice"
+import useUsersUI from "../../hooks/useUsersUI"
 
 function FormCreateUser() {
-   const dispatch = useAppDispatch()
-
    const { handleSubmit } = useFormUser()
+   const { handleShowForm } = useUsersUI()
+
    const { formData, formErrors, handleChange, validateForm } = useFormValidity()
    const txtBtn = formData.id ? "Edit user" : "Create user"
 
@@ -25,7 +22,7 @@ function FormCreateUser() {
          >
             <button
                className="userManager__form-btn-close"
-               onClick={() => dispatch(handleShowForm())}
+               onClick={handleShowForm}
             >
                <span>X</span>
             </button>

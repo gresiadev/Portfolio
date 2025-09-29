@@ -6,11 +6,11 @@ const tokenSlice = createSlice({
         token: false
     },
     reducers: {
-        handleToken: (state) => {
+        changeToken: (state) => {
             state.token = !state.token
         }
     }
 })
 
 export default tokenSlice.reducer
-export const { handleToken } = tokenSlice.actions 
+export const { changeToken } = tokenSlice.actions 

@@ -1,14 +1,15 @@
 // Hooks 
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
-import { useAppSelector } from "../hooks/useStore"
+
+import useFormUser from "../hooks/useFormUser"
 
 // Components 
 import { CompletUser } from "../components/users/ListUsers"
 
 function ViewUser() {
    const { userID } = useParams()
-   const { users } = useAppSelector(state => state.users)
+   const { users } = useFormUser()
    const [user, setUser] = useState(null)
 
    const getUser = async (userID) => {

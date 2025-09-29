@@ -1,12 +1,8 @@
 // Hooks 
-import { useAppDispatch } from "../../hooks/useStore"
-
-// Reducers 
-import { handleCreatedUser } from "../../store/usersUI/usersUISlice"
+import useUsersUI from "../../hooks/useUsersUI"
 
 function ModalCreated() {
-
-   const dispatch = useAppDispatch()
+   const { handleCreatedUser } = useUsersUI()
 
    return (
       <section className="userManager__modal-created-container">
@@ -14,7 +10,7 @@ function ModalCreated() {
             <h3 className="userManager__modal-created-h3">¡Usuario creado con exito!</h3>
             <button
                className="userManager__modal-created-button "
-               onClick={() => dispatch(handleCreatedUser())}>
+               onClick={handleCreatedUser}>
                Aceptar
             </button>
          </div>

@@ -21,7 +21,7 @@ function Projects() {
                      <ul className="portfolio__project-techs-list">
                         <li className="portfolio__project-techs-item">React js</li>
                         <li className="portfolio__project-techs-item">React Router Dom</li>
-                        <li className="portfolio__project-techs-item">Context API</li>
+                        <li className="portfolio__project-techs-item">Redux Toolkit</li>
                         <li className="portfolio__project-techs-item">Fetch API</li>
                         <li className="portfolio__project-techs-item">Form validation</li>
                      </ul>
@@ -57,8 +57,7 @@ function Projects() {
                      <ul className="portfolio__project-techs-list">
                         <li className="portfolio__project-techs-item">React js</li>
                         <li className="portfolio__project-techs-item">React Router Dom</li>
-                        <li className="portfolio__project-techs-item">Context API</li>
-                        <li className="portfolio__project-techs-item">useReducer</li>
+                        <li className="portfolio__project-techs-item">Redux Toolkit</li>
                         <li className="portfolio__project-techs-item">Persistencia</li>
                      </ul>
                      <div className="portfolio__project-description">

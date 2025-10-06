@@ -25,6 +25,10 @@ function Techs() {
                <p className="portfolio__techs-item-name">REACT ROUTER DOM</p>
             </li>
             <li className="portfolio__techs-item">
+               <i class="portfolio__techs-item-icon devicon-redux-original"></i>
+               <p className="portfolio__techs-item-name">REDUX TOOLKIT</p>
+            </li>
+            <li className="portfolio__techs-item">
                <i className="portfolio__techs-item-icon devicon-git-plain-wordmark"></i>
                <p className="portfolio__techs-item-name">GIT</p>
             </li>

@@ -5,7 +5,7 @@ function AboutMe() {
          <div className="portfolio__aboutme-img-container">
             <img
                className="portfolio__aboutme-img"
-               src="public/assets/images/avatar.avif"
+               src="/assets/images/aboutme/avatar.avif"
                alt="aboutme-mi-foto" />
          </div>
          <article

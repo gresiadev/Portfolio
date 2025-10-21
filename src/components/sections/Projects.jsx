@@ -13,7 +13,7 @@ function Projects() {
             <li className="portfolio__projects-item">
                <article className="portfolio__project-card">
                   <h3 className="portfolio__project-title">User Manager</h3>
-                  <img src="public/assets/images/proyects/user2udt.png"
+                  <img src="/assets/images/proyects/user2udt.png"
                      alt="Project userManager img*"
                      className="portfolio__project-img"
                   />
@@ -48,7 +48,7 @@ function Projects() {
             <li className="portfolio__projects-item">
                <article className="portfolio__project-card">
                   <h3 className="portfolio__project-title">League Team Builder</h3>
-                  <img src="public/assets/images/proyects/lol2udt.png" alt="Team league buider img*"
+                  <img src="/assets/images/proyects/lol2udt.png" alt="Team league buider img*"
                      className="portfolio__project-img"
                   />
 

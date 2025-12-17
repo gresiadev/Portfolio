@@ -132,12 +132,14 @@
 .portfolio__aboutme-img-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 45%;
+  box-shadow: 0 0 12px 0px var(--portfolio-C-secondary);
 }
 
 .portfolio__aboutme-img {
-  width: 200px;
-
-  border-radius: 1.1rem;
+  width: 270px;
+  border-radius: 45%;
 }
 
 .portfolio__aboutme-description {
@@ -202,7 +204,7 @@
 }
 
 .portfolio__aboutme-btn:hover {
-  transition: .3s;
+  transition: .4s;
 
   color: var(--portfolio-C-text1);
   background-color: var(--portfolio-C-primary);
@@ -546,6 +548,8 @@
     gap: 1rem;
   }
 
+
+
   /* TECHS  */
   .portfolio__techs {
     gap: 1rem;
@@ -756,6 +760,20 @@
 
   .portfolio__aboutme-subtitle {
     font-size: 1.6rem;
+  }
+
+  .portfolio__aboutme-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45%;
+
+    box-shadow: 0 0 12px 0px var(--portfolio-C-secondary);
+  }
+
+  .portfolio__aboutme-img {
+    width: 300px;
+    border-radius: 45%;
   }
 
   /* TECHS  */

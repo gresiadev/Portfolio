@@ -5,12 +5,14 @@ import { configureStore } from "@reduxjs/toolkit";
 import championsSlice from "./champions/championsSlice"
 import filtersSlice from "./filters/filtersSlice"
 import teamSlice from "./team/teamSlice"
+import teamUISlice from "./team/teamUISlice"
 
 const store = configureStore({
     reducer: {
         champions: championsSlice,
         filters: filtersSlice,
         team: teamSlice,
+        teamUI: teamUISlice,
     }
 })
 

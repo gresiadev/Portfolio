@@ -150,7 +150,7 @@
   font-size: 2rem;
 }
 
-.leagueTeam__home-section-2-list{
+.leagueTeam__home-section-2-list {
   padding: 0 2rem;
 
   display: flex;
@@ -230,7 +230,7 @@
 
 .leagueTeam__about-section-3-title {
   font-size: 2rem;
-  
+
 }
 
 .leagueTeam__about-section-3-list {
@@ -333,7 +333,7 @@
 
 /* === CHAMPIONS === */
 /* UL  */
-.leagueTeam__view-champions-all-champions-container { 
+.leagueTeam__view-champions-all-champions-container {
   width: 100%;
 
   display: grid;
@@ -448,7 +448,7 @@
   gap: 1.5rem;
 }
 
-.leagueTeam__view-champion-title{
+.leagueTeam__view-champion-title {
   font-size: 2.5rem;
 }
 
@@ -540,7 +540,7 @@
   font-size: 2rem;
 }
 
-.leagueTeam__champion-to-show-runes{
+.leagueTeam__champion-to-show-runes {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
@@ -749,6 +749,66 @@
   color: var(--leagueTeam-C-acents3);
 }
 
+.leagueTeam__btnsTeam-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.leagueTeam__team-modalCharactersSent-Container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #083f39eb;
+}
+
+.leagueTeam__team-modalCharactersSent {
+  width: 600px;
+  height: 150px;
+  padding: 2rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  border-radius: 1rem;
+  box-shadow: 0 0 8px 2px var(--leagueTeam-C-acents2);
+  
+  background-color: var(--leagueTeam-C-background-ligth);
+}
+
+.leagueTeam__team-modalCharactersSent-title{
+  font-size: 2.2rem;
+}
+
+.leagueTeam__team-modalCharactersSent-teamBtnClose{
+  font-size: .9rem;
+  position: absolute;
+  top: .7rem;
+  right: .8rem;
+}
+
+.leagueTeam__team-modalCharactersSent-teamBtnClose:hover{
+  cursor: pointer;
+  transform: translateY(-1px);
+  transition: .2s;
+}
+
+.leagueTeam__team-modalCharactersSent h2{
+  color: var(--leagueTeam-C-text1);
+}
+
 /* === PAGE ERROR === */
 .leagueTeam__page-error-container {
   max-width: 1200px;
@@ -774,7 +834,7 @@
 
   border: none;
 
-  color: var( --leagueTeam-C-secondary);
+  color: var(--leagueTeam-C-secondary);
   background-color: inherit;
 }
 

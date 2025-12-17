@@ -2,9 +2,12 @@
 import { useTeam } from "../../hooks/useTeam"
 import { useId } from "react"
 
+// Components 
+import ModalShowCharactersSent from "../modals/ModalShowCharactersSent"
+
 function Team() {
    const InputCheckTeamId = useId()
-   const { team, handleClearTeam } = useTeam()  
+   const { team, handleClearTeam, handleOpenModalCharactersSent } = useTeam()
 
    function TeamCard({ champion }) {
       const { handleAddToTeam, handleRemoveFromTeam } = useTeam()
@@ -15,9 +18,11 @@ function Team() {
             <p>Quantity: <span className="leagueTeam__team-card-number-quantity">{champion.quantity}</span></p>
             <div className="leagueTeam__team-card-action-btns-container ">
                <button
+                  className="leagueTeam__team-card-button"
                   onClick={() => { handleRemoveFromTeam(champion) }}
                >➖</button>
                <button
+                  className="leagueTeam__team-card-button"
                   onClick={() => { handleAddToTeam(champion) }}
                >➕</button>
             </div>
@@ -39,7 +44,19 @@ function Team() {
       )
    }
 
-   const btnClearTeam = team?.length > 0 && <button onClick={handleClearTeam} className="leagueTeam__btn-clear-team">Clear Team</button>
+   function BtnsFunctions() {
+      const hasTeam = team?.length > 0
+
+      return (
+         hasTeam &&
+         <div className="leagueTeam__btnsTeam-container">
+            <button onClick={handleClearTeam} className="leagueTeam__btn-clear-team">Clear team</button>
+            <button className="leagueTeam__btn-clear-team"
+               onClick={() => { handleOpenModalCharactersSent(), handleClearTeam() }}
+            >Send to war</button>
+         </div>
+      )
+   }
 
    return (<>
       <label
@@ -58,7 +75,8 @@ function Team() {
          <section className="leagueTeam__team-content ">
             <ListOfTeam />
             <hr className="leagueTeam__team-hr " />
-            {btnClearTeam}
+            <BtnsFunctions />
+            < ModalShowCharactersSent />
          </section>
 
       </section>

@@ -10,13 +10,13 @@
   },
   "devDependencies": {
     "standard": "^17.1.2",
-    "vite": "^6.3.1"
+    "vite": "^7.3.0"
   },
   "dependencies": {
     "@reduxjs/toolkit": "2.9.0",
     "@vitejs/plugin-react": "4.4.1",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "react-redux": "^9.2.0",
     "react-router-dom": "7.5.3",
     "uuid": "^13.0.0"
